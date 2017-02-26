@@ -46,6 +46,31 @@ Browserify:
 browserify -g remove-react-proptypes/stream -e input.js > output.js
 ```
 
+Webpack 2:
+
+```js
+module.exports = {
+  module: {
+    rules: [
+      // You may want to put this in a separate `modules` rule, so it's applied
+      // to dependencies as well:
+      {
+        test: /\.js$/,
+        use: 'remove-react-proptypes'
+      },
+      // And use other loaders as normal:
+      {
+        test: /\.js$/,
+        exclude: /node_modules/,
+        use: [
+          'babel-loader'
+        ]
+      }
+    ]
+  }
+}
+```
+
 ## License
 
 [MIT](./LICENSE)
