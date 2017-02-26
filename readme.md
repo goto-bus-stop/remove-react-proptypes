@@ -1,5 +1,7 @@
 # remove-react-proptypes
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/goto-bus-stop/remove-react-proptypes.svg)](https://greenkeeper.io/)
+
 Remove React PropTypes. Removes all occurrences of `<component>.propTypes = <types>`.
 
 ## Installation
