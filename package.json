@@ -4,6 +4,7 @@
   "description": "Remove React propTypes.",
   "main": "index.js",
   "bin": "cli.js",
+  "repository": "goto-bus-stop/remove-react-proptypes",
   "scripts": {
     "test": "node test.js"
   },
