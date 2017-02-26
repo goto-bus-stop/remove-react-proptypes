@@ -1,0 +1,20 @@
+{
+  "name": "remove-react-proptypes",
+  "version": "0.0.0",
+  "description": "Remove React propTypes.",
+  "main": "index.js",
+  "bin": "cli.js",
+  "scripts": {
+    "test": "node test.js"
+  },
+  "keywords": [
+    "react"
+  ],
+  "author": "Renée Kooi <renee@kooi.me>",
+  "license": "MIT",
+  "dependencies": {
+    "babylon": "^6.16.1",
+    "falafel": "^2.0.0",
+    "through2": "^2.0.3"
+  }
+}
