@@ -1,6 +1,6 @@
 {
   "name": "remove-react-proptypes",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "description": "Remove React propTypes.",
   "main": "index.js",
   "bin": "cli.js",
